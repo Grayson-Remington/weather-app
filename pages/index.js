@@ -26,6 +26,7 @@ export default function Home() {
 
 
   if(loading) {
+    console.log("spinner works")
     return <Spinner />
   } else {
 return (
